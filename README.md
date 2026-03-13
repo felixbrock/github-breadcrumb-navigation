@@ -2,6 +2,8 @@
 
 Navigate through GitHub repositories and directories with a keyboard-driven overlay. It works both in repositories you own and in external repositories, and it always keeps your own repositories shortlisted so you can quickly jump between them. Press **Ctrl+B** on any GitHub page to open.
 
+## Demo
+
 [![Watch the demo](media/thumbnail.png)](https://www.loom.com/share/04f24a5caa1c48d6853405cc1f010211)
 
 ## Quick Start
