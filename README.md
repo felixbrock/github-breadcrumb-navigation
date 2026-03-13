@@ -1,6 +1,8 @@
 # GitHub Breadcrumb Navigator
 
-Navigate GitHub repositories and directories with a keyboard-driven overlay. Press **Ctrl+B** on any GitHub page to open.
+Navigate through GitHub repositories and directories with a keyboard-driven overlay. It works both in repositories you own and in external repositories, and it always keeps your own repositories shortlisted so you can quickly jump between them. Press **Ctrl+B** on any GitHub page to open.
+
+See a demo [here](https://www.loom.com/share/04f24a5caa1c48d6853405cc1f010211)
 
 ## Quick Start
 
@@ -31,17 +33,17 @@ Press **Ctrl+B** on any GitHub page.
 
 ## Keyboard Shortcuts
 
-| Key | Action |
-|-----|--------|
-| **Ctrl+B** | Open / close overlay |
-| **↑ / ↓** | Move selection |
-| **Tab / Shift+Tab** | Move selection (alternative) |
-| **Enter** | Open selected item |
-| **←** | Go to parent directory / back to My Repositories |
-| **→** | Enter directory/repo (when selected) |
-| **PgUp / PgDn** | Jump between sections |
-| **Esc** | Close overlay |
-| Typing | Filter items |
+| Key                 | Action                                           |
+| ------------------- | ------------------------------------------------ |
+| **Ctrl+B**          | Open / close overlay                             |
+| **↑ / ↓**           | Move selection                                   |
+| **Tab / Shift+Tab** | Move selection (alternative)                     |
+| **Enter**           | Open selected item                               |
+| **←**               | Go to parent directory / back to My Repositories |
+| **→**               | Enter directory/repo (when selected)             |
+| **PgUp / PgDn**     | Jump between sections                            |
+| **Esc**             | Close overlay                                    |
+| Typing              | Filter items                                     |
 
 ## How It Works
 
