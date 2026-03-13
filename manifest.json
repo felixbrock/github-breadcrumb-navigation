@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Breadcrumb Navigator",
+  "version": "1.0",
+  "description": "Navigate GitHub repositories and directories via Ctrl+B",
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.github.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*", "*://github.com/"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  }
+}
